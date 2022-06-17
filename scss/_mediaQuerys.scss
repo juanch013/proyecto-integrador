@@ -1,0 +1,313 @@
+@media (min-width: 576px) {
+    nav{
+        background-color: black !important;
+        div{
+            a.navbar-brand{
+                font-size: 150%;
+            }
+        }
+    }
+
+    div.imagen1-r1{
+        height: 60vh;
+    }
+
+    div.imagen1-r1 span{
+        padding-top: 30vh;
+    }
+
+    footer{
+        div{
+            div.col-4.footerItem{
+                font-size: 15px;
+            }
+        }
+        @for $i from 1 through 3 {
+            div.col-4.redItem#{$i}{
+                font-size: 15px;
+            }
+        }
+    }
+
+    h2.subtitulo{
+        font-size: 35px;
+    }
+
+    .containerParrafo{
+        p{
+            font-size: 27px;
+        }
+        
+    }
+
+    .encabezado{
+        font-size: 45px;
+    }
+
+    /*estilos landing nustras bicis*/
+    div.imagen3-r2-c2.landingNB{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 18px;
+        }
+    }
+
+    div.imagen2-r2-c1.landingNB{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 18px;
+        }
+    }
+
+    div.imagen4-r3-c1.landingNB{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 18px;
+        }
+    }
+
+    div.imagen5-r3-c2.landingNB{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 18px;
+        }
+    }
+    /*fin landing nuestras bicis*/
+
+}
+
+@media (min-width: 768px) { 
+    nav{
+        background-color: black !important;
+        div{
+            a.navbar-brand{
+                font-size: 200%;
+            }
+        }
+    }
+
+    div.imagen1-r1{
+        height: 70vh;
+        span{
+            font-size: 130%;
+        }
+    }
+
+    div.imagen3-r2-c2{
+        height: 33vh;
+        span{
+            padding-top: 13vh;
+            font-size: 18px;
+        }
+    }
+
+    div.imagen2-r2-c1{
+        height: 33vh;
+        span{
+            padding-top: 13vh;
+            font-size: 18px;
+        }
+    }
+
+    div.imagen4-r3-c1{
+        height: 33vh;
+        span{
+            padding-top: 13vh;
+            font-size: 18px;
+        }
+    }
+
+    div.imagen5-r3-c2{
+        height: 33vh;
+        span{
+            padding-top: 13vh;
+            font-size: 18px;
+        }
+    }
+
+    /*estilos landing nustras bicis*/
+    div.imagen3-r2-c2.landingNB{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 23px;
+        }
+    }
+
+    div.imagen2-r2-c1.landingNB{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 23px;
+        }
+    }
+
+    div.imagen4-r3-c1.landingNB{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 23px;
+        }
+    }
+
+    div.imagen5-r3-c2.landingNB{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 23px;
+        }
+    }
+    /*fin landing nuestras bicis*/
+    h2.subtitulo{
+        font-size: 40px;
+    }
+
+    .containerParrafo{
+        p{
+            font-size: 27px;
+        }
+        
+    }
+}
+
+@media (min-width: 992px) { 
+    
+    nav{
+        background-color: black !important;
+        div{
+            a.navbar-brand{
+                font-size: 200%;
+            }
+        }
+    }
+
+    div.imagen1-r1{
+        height: 80vh;
+    }
+
+    div.imagen1-r1 span{
+        font-size: 150%;
+        padding-top: 32vh;
+    }
+
+    div.imagen3-r2-c2{
+        height: 40vh;
+        span{
+            padding-top: 16vh;
+            font-size: 20px;
+        }
+    }
+
+    div.imagen2-r2-c1{
+        height: 40vh;
+        span{
+            padding-top: 16vh;
+            font-size: 20px;
+        }
+    }
+
+    div.imagen4-r3-c1{
+        height: 40vh;
+        span{
+            padding-top: 16vh;
+            font-size: 20px;
+        }
+    }
+
+    div.imagen5-r3-c2{
+        height: 40vh;
+        span{
+            padding-top: 16vh;
+            font-size: 20px;
+        }
+    }
+
+    h2.subtitulo{
+        font-size: 42px;
+    }
+
+    .containerParrafo{
+        p{
+            font-size: 27px;
+        }
+        
+    }
+}
+
+@media (min-width: 1200px) {
+    nav{
+        background-color: black !important;
+        div{
+            a.navbar-brand{
+                font-size: 280%;
+            }
+            div{
+                ul{
+                    a{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    div.imagen1-r1{
+        height: 100vh;
+        span{
+            font-size: 200%;
+            padding-top: 40vh;
+        }
+    }
+
+    div.imagen3-r2-c2{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 23px;
+        }
+    }
+
+    div.imagen2-r2-c1{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 23px;
+        }
+    }
+
+    div.imagen4-r3-c1{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 23px;
+        }
+    }
+
+    div.imagen5-r3-c2{
+        height: 50vh;
+        span{
+            padding-top: 20vh;
+            font-size: 23px;
+        }
+    }
+
+    .encabezado{
+        font-size: 55px;
+    }
+
+    h2.subtitulo{
+        font-size: 47px;
+    }
+
+    .containerParrafo{
+        p{
+            font-size: 27px;
+        }
+    }
+
+    
+}

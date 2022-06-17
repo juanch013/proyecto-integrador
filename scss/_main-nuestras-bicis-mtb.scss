@@ -1,0 +1,50 @@
+@import 'main-index';
+
+
+div.row.banner-mtb{
+    width:100%;
+    @extend .imagenFondo;
+    background-image: url(../images/img_pie_main.png);
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    span{
+        
+        backdrop-filter: blur(5px) brightness(0.4);
+        height: 100%;
+        width: 100%;
+        color:white;
+        z-index: 2;
+        font-family: 'Caveat', cursive;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 1vh;
+        
+    }
+}
+
+
+div.main-container-bicicletas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    div.card{
+        border:0px;
+        align-items:right;
+        font-family: map-get($fuentes , subtitulo ); 
+        object-fit: contain;    
+    }
+}
+
+.btn, .btn-primary{
+    background-color: black !important;
+    border:black !important;
+}
+

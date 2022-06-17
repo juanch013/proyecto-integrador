@@ -1,0 +1,688 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Hubballi&family=Red+Hat+Mono:ital,wght@0,400;1,700&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Hubballi&family=Red+Hat+Mono:ital,wght@0,400;1,700&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Hubballi&family=Red+Hat+Mono:ital,wght@0,400;1,700&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Hubballi&family=Red+Hat+Mono:ital,wght@0,400;1,700&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Hubballi&family=Red+Hat+Mono:ital,wght@0,400;1,700&family=Roboto+Slab:wght@500&display=swap");
+nav {
+  background-color: black !important; }
+  nav div a.navbar-brand {
+    font-family: "Caveat", cursive; }
+  nav div div {
+    justify-content: center;
+    align-items: center; }
+
+.nav-link {
+  color: white;
+  font-family: "Teko", sans-serif;
+  font-size: 25px; }
+
+div.col.container--primeraColumna {
+  width: 100%; }
+
+.imagenFondo, div.imagen1-r1, div.imagen2-r2-c1, div.imagen3-r2-c2, div.imagen4-r3-c1, div.imagen5-r3-c2, div.row.banner-mtb {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* ESTILOS PRIMER ROW */
+div.imagen1-r1 {
+  width: 100%;
+  background-image: url(../images/img_pie_main.png);
+  object-fit: cover;
+  height: 92vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+
+div.imagen1-r1 span {
+  backdrop-filter: blur(5px) brightness(0.4);
+  height: 100%;
+  width: 100%;
+  color: white;
+  z-index: 2;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  padding-top: 25vh; }
+
+/* ESTILOS SEGUNDA ROW */
+div a {
+  text-decoration: none; }
+
+div.imagen2-r2-c1 {
+  width: 100%;
+  background-image: url(../images/imagen-bici-ruta.jpg);
+  height: 30vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+  div.imagen2-r2-c1 span {
+    color: white;
+    font-family: "Caveat", cursive;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    padding-top: 10vh;
+    backdrop-filter: blur(1px) brightness(0.6) grayscale(85%); }
+
+div.imagen3-r2-c2 {
+  width: 100%;
+  background-image: url(../images/imagen-bicis-montania.jpg);
+  height: 30vh;
+  z-index: 1;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  div.imagen3-r2-c2 span {
+    color: white;
+    font-family: "Caveat", cursive;
+    backdrop-filter: blur(1px) brightness(0.6) grayscale(85%);
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    padding-top: 10vh; }
+
+/* ESTILOS TERCERA ROW */
+div.imagen4-r3-c1 {
+  width: 100%;
+  background-image: url(../images/imagen-bici-ninio.jpg);
+  height: 30vh;
+  z-index: 1;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  div.imagen4-r3-c1 span {
+    backdrop-filter: blur(1px) brightness(0.6) grayscale(85%);
+    height: 100%;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    font-family: "Caveat", cursive;
+    text-align: center;
+    padding-top: 10vh; }
+
+div.imagen5-r3-c2 {
+  width: 100%;
+  background-image: url(../images/imagen-bici-ciudad.jpg);
+  height: 30vh;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  div.imagen5-r3-c2 span {
+    backdrop-filter: blur(1px) brightness(0.6) grayscale(85%);
+    height: 100%;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    font-family: "Caveat", cursive;
+    text-align: center;
+    padding-top: 10vh; }
+
+div.terceraFila.row {
+  box-shadow: 0 5px 20px 5px gray; }
+
+/* ESTILOS SOBRE NOSOTROS */
+.subtitulo {
+  margin-top: 2%;
+  font-family: "Teko", sans-serif;
+  color: black;
+  font-weight: 400;
+  margin-left: 2%;
+  font-size: 30px; }
+
+.containerLinea {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: row; }
+
+.lineaLateralTop {
+  background-color: black;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 5%;
+  height: 100%; }
+
+.lineaLateralMid {
+  background-color: black;
+  border-radius: 0px;
+  width: 5%;
+  height: 100%;
+  margin: 0px;
+  padding: 0%; }
+
+.lineaLateralBot {
+  background-color: black;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 5%;
+  height: 95%;
+  padding-bottom: 5%; }
+
+.containerParrafo {
+  text-align: justify;
+  font-weight: 300;
+  font-family: "Teko", sans-serif;
+  font-size: 17px; }
+
+.imagenSN1 {
+  background-image: url("../images/partes bicicleta.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.imagenSN2 {
+  background-image: url("../images/sketch bicicleta.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.container-fieldset {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  flex-direction: column;
+  padding: 5%; }
+
+.input {
+  margin: 1% !important; }
+
+.btnEnviar {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: black;
+  color: white;
+  border: 0px;
+  border-radius: 5px; }
+
+.encabezado {
+  font-family: "Teko", sans-serif;
+  font-size: 40px;
+  text-align: center; }
+
+.destacado {
+  background-color: #C1C1C1 !important; }
+
+@media (min-width: 576px) {
+  nav {
+    background-color: black !important; }
+    nav div a.navbar-brand {
+      font-size: 150%; }
+  div.imagen1-r1 {
+    height: 60vh; }
+  div.imagen1-r1 span {
+    padding-top: 30vh; }
+  footer div div.col-4.footerItem {
+    font-size: 15px; }
+  footer div.col-4.redItem1 {
+    font-size: 15px; }
+  footer div.col-4.redItem2 {
+    font-size: 15px; }
+  footer div.col-4.redItem3 {
+    font-size: 15px; }
+  h2.subtitulo {
+    font-size: 35px; }
+  .containerParrafo p {
+    font-size: 27px; }
+  .encabezado {
+    font-size: 45px; }
+  /*estilos landing nustras bicis*/
+  div.imagen3-r2-c2.landingNB {
+    height: 50vh; }
+    div.imagen3-r2-c2.landingNB span {
+      padding-top: 20vh;
+      font-size: 18px; }
+  div.imagen2-r2-c1.landingNB {
+    height: 50vh; }
+    div.imagen2-r2-c1.landingNB span {
+      padding-top: 20vh;
+      font-size: 18px; }
+  div.imagen4-r3-c1.landingNB {
+    height: 50vh; }
+    div.imagen4-r3-c1.landingNB span {
+      padding-top: 20vh;
+      font-size: 18px; }
+  div.imagen5-r3-c2.landingNB {
+    height: 50vh; }
+    div.imagen5-r3-c2.landingNB span {
+      padding-top: 20vh;
+      font-size: 18px; }
+  /*fin landing nuestras bicis*/ }
+
+@media (min-width: 768px) {
+  nav {
+    background-color: black !important; }
+    nav div a.navbar-brand {
+      font-size: 200%; }
+  div.imagen1-r1 {
+    height: 70vh; }
+    div.imagen1-r1 span {
+      font-size: 130%; }
+  div.imagen3-r2-c2 {
+    height: 33vh; }
+    div.imagen3-r2-c2 span {
+      padding-top: 13vh;
+      font-size: 18px; }
+  div.imagen2-r2-c1 {
+    height: 33vh; }
+    div.imagen2-r2-c1 span {
+      padding-top: 13vh;
+      font-size: 18px; }
+  div.imagen4-r3-c1 {
+    height: 33vh; }
+    div.imagen4-r3-c1 span {
+      padding-top: 13vh;
+      font-size: 18px; }
+  div.imagen5-r3-c2 {
+    height: 33vh; }
+    div.imagen5-r3-c2 span {
+      padding-top: 13vh;
+      font-size: 18px; }
+  /*estilos landing nustras bicis*/
+  div.imagen3-r2-c2.landingNB {
+    height: 50vh; }
+    div.imagen3-r2-c2.landingNB span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen2-r2-c1.landingNB {
+    height: 50vh; }
+    div.imagen2-r2-c1.landingNB span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen4-r3-c1.landingNB {
+    height: 50vh; }
+    div.imagen4-r3-c1.landingNB span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen5-r3-c2.landingNB {
+    height: 50vh; }
+    div.imagen5-r3-c2.landingNB span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  /*fin landing nuestras bicis*/
+  h2.subtitulo {
+    font-size: 40px; }
+  .containerParrafo p {
+    font-size: 27px; } }
+
+@media (min-width: 992px) {
+  nav {
+    background-color: black !important; }
+    nav div a.navbar-brand {
+      font-size: 200%; }
+  div.imagen1-r1 {
+    height: 80vh; }
+  div.imagen1-r1 span {
+    font-size: 150%;
+    padding-top: 32vh; }
+  div.imagen3-r2-c2 {
+    height: 40vh; }
+    div.imagen3-r2-c2 span {
+      padding-top: 16vh;
+      font-size: 20px; }
+  div.imagen2-r2-c1 {
+    height: 40vh; }
+    div.imagen2-r2-c1 span {
+      padding-top: 16vh;
+      font-size: 20px; }
+  div.imagen4-r3-c1 {
+    height: 40vh; }
+    div.imagen4-r3-c1 span {
+      padding-top: 16vh;
+      font-size: 20px; }
+  div.imagen5-r3-c2 {
+    height: 40vh; }
+    div.imagen5-r3-c2 span {
+      padding-top: 16vh;
+      font-size: 20px; }
+  h2.subtitulo {
+    font-size: 42px; }
+  .containerParrafo p {
+    font-size: 27px; } }
+
+@media (min-width: 1200px) {
+  nav {
+    background-color: black !important; }
+    nav div a.navbar-brand {
+      font-size: 280%; }
+    nav div div ul a {
+      font-size: 20px; }
+  div.imagen1-r1 {
+    height: 100vh; }
+    div.imagen1-r1 span {
+      font-size: 200%;
+      padding-top: 40vh; }
+  div.imagen3-r2-c2 {
+    height: 50vh; }
+    div.imagen3-r2-c2 span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen2-r2-c1 {
+    height: 50vh; }
+    div.imagen2-r2-c1 span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen4-r3-c1 {
+    height: 50vh; }
+    div.imagen4-r3-c1 span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen5-r3-c2 {
+    height: 50vh; }
+    div.imagen5-r3-c2 span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  .encabezado {
+    font-size: 55px; }
+  h2.subtitulo {
+    font-size: 47px; }
+  .containerParrafo p {
+    font-size: 27px; } }
+
+footer {
+  width: 100%;
+  background-color: black; }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center; }
+    footer div div.footerItem {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      text-align: center;
+      font-size: 12px; }
+
+div.row.containerRedes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+  margin-top: 1%; }
+
+.redItem1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 13px; }
+  .redItem1 img {
+    height: 25px;
+    width: 25px; }
+
+.redItem2 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 13px; }
+  .redItem2 img {
+    height: 25px;
+    width: 25px; }
+
+.redItem3 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 13px; }
+  .redItem3 img {
+    height: 25px;
+    width: 25px; }
+
+/* ESTILOS GENERALES */
+* {
+  padding: 0px;
+  margin: 0px; }
+  * ::-webkit-scrollbar {
+    display: none; }
+  * html {
+    scroll-behavior: smooth; }
+
+div.col.container--primeraColumna {
+  width: 100%; }
+
+.imagenFondo, div.imagen1-r1, div.imagen2-r2-c1, div.imagen3-r2-c2, div.imagen4-r3-c1, div.imagen5-r3-c2, div.row.banner-mtb {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* ESTILOS PRIMER ROW */
+div.imagen1-r1 {
+  width: 100%;
+  background-image: url(../images/img_pie_main.png);
+  object-fit: cover;
+  height: 92vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+
+div.imagen1-r1 span {
+  backdrop-filter: blur(5px) brightness(0.4);
+  height: 100%;
+  width: 100%;
+  color: white;
+  z-index: 2;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  padding-top: 25vh; }
+
+/* ESTILOS SEGUNDA ROW */
+div a {
+  text-decoration: none; }
+
+div.imagen2-r2-c1 {
+  width: 100%;
+  background-image: url(../images/imagen-bici-ruta.jpg);
+  height: 30vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+  div.imagen2-r2-c1 span {
+    color: white;
+    font-family: "Caveat", cursive;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    padding-top: 10vh;
+    backdrop-filter: blur(1px) brightness(0.6) grayscale(85%); }
+
+div.imagen3-r2-c2 {
+  width: 100%;
+  background-image: url(../images/imagen-bicis-montania.jpg);
+  height: 30vh;
+  z-index: 1;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  div.imagen3-r2-c2 span {
+    color: white;
+    font-family: "Caveat", cursive;
+    backdrop-filter: blur(1px) brightness(0.6) grayscale(85%);
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    padding-top: 10vh; }
+
+/* ESTILOS TERCERA ROW */
+div.imagen4-r3-c1 {
+  width: 100%;
+  background-image: url(../images/imagen-bici-ninio.jpg);
+  height: 30vh;
+  z-index: 1;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  div.imagen4-r3-c1 span {
+    backdrop-filter: blur(1px) brightness(0.6) grayscale(85%);
+    height: 100%;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    font-family: "Caveat", cursive;
+    text-align: center;
+    padding-top: 10vh; }
+
+div.imagen5-r3-c2 {
+  width: 100%;
+  background-image: url(../images/imagen-bici-ciudad.jpg);
+  height: 30vh;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  div.imagen5-r3-c2 span {
+    backdrop-filter: blur(1px) brightness(0.6) grayscale(85%);
+    height: 100%;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    font-family: "Caveat", cursive;
+    text-align: center;
+    padding-top: 10vh; }
+
+div.terceraFila.row {
+  box-shadow: 0 5px 20px 5px gray; }
+
+/* ESTILOS SOBRE NOSOTROS */
+.subtitulo {
+  margin-top: 2%;
+  font-family: "Teko", sans-serif;
+  color: black;
+  font-weight: 400;
+  margin-left: 2%;
+  font-size: 30px; }
+
+.containerLinea {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: row; }
+
+.lineaLateralTop {
+  background-color: black;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 5%;
+  height: 100%; }
+
+.lineaLateralMid {
+  background-color: black;
+  border-radius: 0px;
+  width: 5%;
+  height: 100%;
+  margin: 0px;
+  padding: 0%; }
+
+.lineaLateralBot {
+  background-color: black;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 5%;
+  height: 95%;
+  padding-bottom: 5%; }
+
+.containerParrafo {
+  text-align: justify;
+  font-weight: 300;
+  font-family: "Teko", sans-serif;
+  font-size: 17px; }
+
+.imagenSN1 {
+  background-image: url("../images/partes bicicleta.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.imagenSN2 {
+  background-image: url("../images/sketch bicicleta.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+div.row.banner-mtb {
+  width: 100%;
+  background-image: url(../images/img_pie_main.png);
+  object-fit: cover;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+  div.row.banner-mtb span {
+    backdrop-filter: blur(5px) brightness(0.4);
+    height: 100%;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1vh; }
+
+div.main-container-bicicletas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  div.main-container-bicicletas div.card {
+    border: 0px;
+    align-items: right;
+    font-family: "Teko", sans-serif;
+    object-fit: contain; }
+
+.btn, .btn-primary {
+  background-color: black !important;
+  border: black !important; }
+
+.itemCarrito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; }
+  .itemCarrito h5, .itemCarrito h6 {
+    font-family: "Teko", sans-serif; }

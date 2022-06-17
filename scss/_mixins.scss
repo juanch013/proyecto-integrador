@@ -1,0 +1,19 @@
+@mixin dimensiones($alto,$ancho) {
+    height: $alto;
+    width: $ancho;
+}
+
+@mixin flex-centrado-columna {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin flex-centrado-fila {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+}
+

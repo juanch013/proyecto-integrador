@@ -1,0 +1,43 @@
+footer{
+    width:100%;
+    background-color: black;
+    div{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        div.footerItem{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}
+
+div.row.containerRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    margin-top: 1%;
+}
+
+@for $i from 1 through 3{
+    .redItem#{$i}{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-items:center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 13px;
+        img{
+            height: 25px;
+            width: 25px;
+        }
+    }
+}

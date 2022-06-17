@@ -1,0 +1,201 @@
+@import 'variables';
+@import 'mixins';
+div.col.container--primeraColumna{
+    width: 100%;
+}
+.imagenFondo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+/* ESTILOS PRIMER ROW */
+div.imagen1-r1{
+    width: 100%;
+    background-image: url(../images/img_pie_main.png);
+    object-fit: cover;
+    @extend .imagenFondo;
+    height: 92vh;
+    
+
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+div.imagen1-r1 span{
+    backdrop-filter: blur(5px) brightness(0.4);
+    height: 100%;
+    width: 100%;
+    color:white;
+    z-index: 2;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    padding-top: 25vh;
+}
+/* ESTILOS SEGUNDA ROW */
+div{
+    a{
+        text-decoration: none;
+    }
+}
+
+div.imagen2-r2-c1{
+    width: 100%;
+    background-image: url(../images/imagen-bici-ruta.jpg);
+    height: 30vh;
+    @extend .imagenFondo;
+
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    span{
+        color:white;
+        font-family:map-get($fuentes , titulo );
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        text-align: center;
+        padding-top: 10vh;
+        backdrop-filter: blur(1px) brightness(0.6) grayscale(85%);
+    }
+}
+
+div.imagen3-r2-c2{
+    width: 100%;
+    background-image: url(../images/imagen-bicis-montania.jpg);
+    height: 30vh;
+    @extend .imagenFondo;
+
+    z-index: 1;
+    @include flex-centrado-columna;
+    align-items: center;
+    span{
+        color:white;
+        font-family: map-get($fuentes , titulo );
+        backdrop-filter: blur(1px) brightness(0.6) grayscale(85%);
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        text-align: center;
+        padding-top: 10vh;
+    }
+}
+
+/* ESTILOS TERCERA ROW */
+
+div.imagen4-r3-c1{
+    width: 100%;
+    background-image: url(../images/imagen-bici-ninio.jpg);
+    height: 30vh;
+    @extend .imagenFondo;
+    z-index: 1;
+    @include flex-centrado-columna;
+    align-items: center;
+    
+    span{
+        backdrop-filter: blur(1px) brightness(0.6) grayscale(85%);
+        height: 100%;
+        width: 100%;
+        color:white;
+        z-index: 2;
+        font-family: map-get($fuentes , titulo );
+        text-align: center;
+        padding-top: 10vh;
+    }
+}
+
+
+
+div.imagen5-r3-c2{
+    @extend .imagenFondo;
+    width: 100%;
+    background-image: url(../images/imagen-bici-ciudad.jpg);
+    height: 30vh;
+    @extend .imagenFondo;
+
+    z-index: 1;
+    align-items: center;
+    @include flex-centrado-columna;
+    span{
+        backdrop-filter: blur(1px) brightness(0.6) grayscale(85%);
+        height: 100%;
+        width: 100%;
+        color:white;
+        z-index: 2;
+        font-family: map-get($fuentes , titulo );
+        text-align: center;
+        padding-top: 10vh;
+    }
+}
+
+div.terceraFila.row{
+    box-shadow: 0 5px 20px 5px gray;
+}
+
+/* ESTILOS SOBRE NOSOTROS */
+
+.subtitulo{
+    margin-top: 2%;
+    font-family: map-get($fuentes , subtitulo );
+    color: black;
+    font-weight: 400;
+    margin-left: 2%;
+    font-size: 30px;
+}
+
+.containerLinea{
+    @include flex-centrado-fila
+}
+
+.lineaLateralTop{
+    background-color: black;
+    border-radius:5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 5%;
+    height: 100%;
+}
+
+.lineaLateralMid{
+    background-color: black;
+    border-radius:0px;
+    width: 5%;
+    height: 100%;
+    margin:0px;
+    padding: 0%;
+}
+
+.lineaLateralBot{
+    background-color: black;
+    border-radius:5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 5%;
+    height: 95%;
+    padding-bottom: 5%;
+}
+
+.containerParrafo{
+    text-align: justify;
+    font-weight: 300;
+    font-family: map-get($fuentes , subtitulo );
+    font-size: 17px;
+}
+
+.imagenSN1{
+    background-image:url('../images/partes\ bicicleta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagenSN2{
+    background-image:url('../images/sketch\ bicicleta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

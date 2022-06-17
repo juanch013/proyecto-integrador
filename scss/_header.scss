@@ -1,0 +1,19 @@
+@import 'variables';
+nav{
+    background-color: black !important;
+    div{
+        a.navbar-brand{
+            font-family: $fuente_titulo;
+        }
+        div{
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.nav-link{
+    color: white;
+    font-family: $fuente_subtitulo;
+    font-size: 25px;
+}

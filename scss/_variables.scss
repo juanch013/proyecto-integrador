@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Hubballi&family=Red+Hat+Mono:ital,wght@0,400;1,700&family=Roboto+Slab:wght@500&display=swap');
+
+$fuente_titulo:'Caveat', cursive;
+$fuente_subtitulo: 'Teko', sans-serif;
+
+$fuentes:(
+    titulo: $fuente_titulo,
+    subtitulo:$fuente_subtitulo,
+);

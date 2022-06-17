@@ -1,0 +1,11 @@
+@import 'variables';
+
+.itemCarrito{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    h5,h6{
+        font-family: $fuente_subtitulo;
+    }
+}
