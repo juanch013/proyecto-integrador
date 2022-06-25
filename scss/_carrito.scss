@@ -56,6 +56,9 @@ div.itemCarrito{
         div.leftContainer{
             height: 100%;
             width: 30%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
 
     }

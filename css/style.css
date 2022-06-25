@@ -722,7 +722,10 @@ div.itemCarrito {
           font-size: 20px; }
     div.itemCarrito div.innerContainer div.leftContainer {
       height: 100%;
-      width: 30%; }
+      width: 30%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
 
 div#mainContainer {
   min-height: 100vh; }
