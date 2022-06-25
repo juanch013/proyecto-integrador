@@ -1,5 +1,6 @@
+mostrarCarro()
+
 function mostrarCarro(){
-    let contador = 0
     let carrito = localStorage.getItem("carrito")
     let contenedor = document.getElementById("mainContainer")
     if(carrito != null){
@@ -16,36 +17,35 @@ function mostrarCarro(){
                                     </div>
                                 </div>
                                 <div class="leftContainer">
-                                    <a id="${contador}" href="#" class="btn btn-primary">Eliminar</a>
+                                    <a id="${it.id}" href="#" class="btn btn-primary">Eliminar</a>
                                 </div>
                             </div>
                         </div>`
             contenedor.innerHTML += itHTML
-            contador++
         });
+
+        let botones = document.querySelectorAll(".btn, .btn-primary")
+        if(botones.length != 0){
+            botones.forEach(element => {
+                console.log("e")
+                element.addEventListener('click',()=>{
+                    let id  = element.id
+                    eliminarItem(id)
+                    element.className = "btn .btn-primary"
+                })
+            }); 
+        }
+        
     }      
 }
-mostrarCarro()
 
 
-function agregarListeners(){
-    let botones = document.querySelectorAll(".btn, .btn-primary")
-    if(botones.length != 0){
-        botones.forEach(element => {
-            element.addEventListener('click',()=>{
-                eliminarItem(element.id)
-                element.className = "btn .btn-primary"
-            })
-        }); 
-    }
-}
 
-agregarListeners()
 
 function eliminarItem(id){
-    debugger
+    console.log("aaa")
     let carrito = JSON.parse(localStorage.getItem("carrito"))
-    carrito = carrito.filter(producto => producto.id != id)
+    carrito = carrito.filter(p => p.id != id)
     localStorage.setItem("carrito",JSON.stringify(carrito))
     mostrarCarro()
 }
