@@ -7,7 +7,12 @@ function mostrarCarro(){
         contenedor.innerHTML = `<div class="centradoLinea"><h1 class="subtitulo ">Productos agregados al carrito</h1></div>`
         carrito = JSON.parse(carrito)
         carrito.forEach(it => {
-            let{nombre,precio,img,id} = it.item
+            const{
+                nombre:nombre,
+                precio:precio,
+                img: img,
+                id : id
+            } = it.item
             let cant = it.cant
 
             let itHTML=`<div class="itemCarrito">
