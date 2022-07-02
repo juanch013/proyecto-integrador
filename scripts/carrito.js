@@ -44,8 +44,6 @@ function mostrarCarro(){
 }
 
 
-
-
 function eliminarItem(id){
     console.log("aaa")
     let carrito = JSON.parse(localStorage.getItem("carrito"))
