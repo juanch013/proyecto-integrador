@@ -10,6 +10,7 @@ botones.forEach(boton => {
 
         let carrito = localStorage.getItem("carrito")
         carrito = (carrito == null)? [] : JSON.parse(carrito)
+
         if(carrito.some(elem => elem.item.id == id)){
             carrito.forEach(it => {
                 if(it.item.id == id){ 
@@ -21,7 +22,6 @@ botones.forEach(boton => {
             carrito.push({cant:1,item:new item(Nombre,"bicicleta",Precio,img,id)})
             localStorage.setItem("carrito",JSON.stringify(carrito))
         }
-        debugger
         Swal.fire({
             position: 'top-end',
             icon: 'success',
