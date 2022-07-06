@@ -666,14 +666,15 @@ div.row.banner-mtb {
     padding-top: 1vh; }
 
 div.main-container-bicicletas {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  object-fit: contain !important; }
   div.main-container-bicicletas div.card {
     border: 0px;
-    align-items: right;
-    font-family: "Teko", sans-serif;
-    object-fit: contain; }
+    align-items: right !important;
+    font-family: "Teko", sans-serif !important;
+    object-fit: contain !important; }
 
 .btn, .btn-primary {
   background-color: black !important;

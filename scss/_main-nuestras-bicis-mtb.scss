@@ -32,14 +32,15 @@ div.row.banner-mtb{
 
 
 div.main-container-bicicletas{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    object-fit: contain !important;
     div.card{
-        border:0px;
-        align-items:right;
-        font-family: map-get($fuentes , subtitulo ); 
-        object-fit: contain;    
+        border:0px; 
+        align-items: right !important;
+        font-family: map-get($fuentes , subtitulo ) !important; 
+        object-fit: contain !important; 
     }
 }
 
