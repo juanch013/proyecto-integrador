@@ -7,14 +7,14 @@ function mostrarCarro(){
         contenedor.innerHTML = `<div class="centradoLinea"><h1 class="subtitulo ">Productos agregados al carrito</h1></div>`
         carrito = JSON.parse(carrito)
         carrito.forEach(it => {
-            const{
+            let{
                 nombre:nombre,
                 precio:precio,
                 img: img,
                 id : id
             } = it.item
             let cant = it.cant
-
+            img = img.slice(3)//esto lo hago para obtener la ruta relativa correcta para mostrar la imagen en el carrito
             let itHTML=`<div class="itemCarrito">
                             <div class="innerContainer">
                                 <div class="rightContainer">

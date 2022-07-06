@@ -1,10 +1,22 @@
+const url = `https://raw.githubusercontent.com/juanch013/github-api-bicis/main/bicis.txt`
+let inventario = []
+const obtenerInventario = (url)=>{
+    fetch(url)
+    .then(res => res.json())
+    .then(res => inventario = res)
+    .catch(err => console.log(err.message))
+}
+//obtengo botones y el inventario
 let botones = document.querySelectorAll(".btn, .btn-primary")
+obtenerInventario(url)
+
 botones.forEach(boton => {
     boton.addEventListener('click',()=>{
+        debugger
         let elem = boton.parentNode.parentNode
         let Nombre = elem.querySelector("h5").innerText
-        let Precio = elem.querySelector("h6").innerText
-        let img = elem.querySelector("img").src
+        // let Precio = elem.querySelector("h6").innerText
+        // let img = elem.querySelector("img").src
         let id = elem.querySelector("h5").id
         boton.className = "btn .btn-primary"
 
@@ -19,7 +31,9 @@ botones.forEach(boton => {
             });
             localStorage.setItem("carrito",JSON.stringify(carrito))
         }else{
-            carrito.push({cant:1,item:new item(Nombre,"bicicleta",Precio,img,id)})
+            
+            let objetoInventario = inventario.find(it => it.id == id)
+            carrito.push({cant:1,item:objetoInventario})
             localStorage.setItem("carrito",JSON.stringify(carrito))
         }
         Swal.fire({
@@ -31,3 +45,4 @@ botones.forEach(boton => {
           })
     })
 });
+
