@@ -78,6 +78,28 @@
     }
     /*fin landing nuestras bicis*/
 
+    div.itemCarrito{   
+        div.innerContainer{
+            div.rightContainer{     
+                img{
+                    height: 70%;
+                }
+                div{
+                    h5{ 
+                        font-size: 20px;
+                    }
+                    h6{
+                        font-size: 16px;
+                    }
+                }
+            }
+            div.leftContainer{
+                a{
+                    font-size: 16px; 
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 768px) { 
@@ -172,6 +194,32 @@
         }
         
     }
+
+    div.itemCarrito{   
+        div.innerContainer{
+            div.rightContainer{   
+                width: 70%;  
+                img{
+                    height: 80%;
+                }
+                div{
+                    h5{ 
+                        font-size: 22px;
+                    }
+                    h6{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .leftContainer{
+                width: 30%;
+                a{
+                    font-size: 20px !important; 
+                }
+            }
+        }
+    }
+
 }
 
 @media (min-width: 992px) { 
@@ -235,6 +283,29 @@
             font-size: 27px;
         }
         
+    }
+
+    div.itemCarrito{   
+        div.innerContainer{
+            div.rightContainer{     
+                img{
+                    height: 90%;
+                }
+                div{
+                    h5{ 
+                        font-size: 24px;
+                    }
+                    h6{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .leftContainer{
+                a{
+                    font-size: 22px !important; 
+                }
+            }
+        }
     }
 }
 
@@ -306,6 +377,30 @@
     .containerParrafo{
         p{
             font-size: 27px;
+        }
+    }
+
+    div.itemCarrito{   
+        div.innerContainer{
+            div.rightContainer{     
+                img{
+                    height: 80%;
+                }
+                div{
+                    h5{ 
+                        font-size: 25px;
+                    }
+                    h6{
+                        font-size: 22px;
+                    }
+                }
+            }
+
+            .leftContainer{
+                a{
+                    font-size: 24px !important; 
+                }
+            }
         }
     }
 

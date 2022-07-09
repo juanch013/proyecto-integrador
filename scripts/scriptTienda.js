@@ -51,10 +51,6 @@ function cargarProductos(inventario){
     container.className = "row g-0 main-container-bicicletas"
 }
 
-
-
-//obtengo botones para agregarle eventListener
-
 function cargarListeners(inventario){
     let botones = document.querySelectorAll(".btn, .btn-primary")
     botones.forEach(boton => {

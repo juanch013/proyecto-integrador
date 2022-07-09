@@ -23,14 +23,14 @@ div.itemCarrito{
 
         div.rightContainer{
             height: 100%;
-            width: 70%;
+            width: 50%;
             display:flex;
             flex-direction:row;
             justify-content:flex-start;
             align-items: center;
             
             img{
-                height: 90%;
+                height: 60%;
                 margin: auto 0px auto 1%;
                 padding: 0px 10% 0px 0px;
             }
@@ -43,11 +43,11 @@ div.itemCarrito{
 
                 h5{
                     font-family: $fuente_subtitulo;
-                    font-size: 24px;
+                    font-size: 18px;
                 }
                 h6{
                     font-family: $fuente_subtitulo;
-                    font-size: 20px;
+                    font-size: 14px;
                 }
             }
 
@@ -55,11 +55,15 @@ div.itemCarrito{
 
         div.leftContainer{
             height: 100%;
-            width: 30%;
+            width: 50%;
             display: flex;
             justify-content: space-around;
             align-items: center;
             flex-direction: row;
+            a{
+                width: 40%;
+                font-size: 12px;
+            }
         }
 
     }

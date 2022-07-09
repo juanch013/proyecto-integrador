@@ -223,182 +223,6 @@ div.terceraFila.row {
 .destacado {
   background-color: #C1C1C1 !important; }
 
-@media (min-width: 576px) {
-  nav {
-    background-color: black !important; }
-    nav div a.navbar-brand {
-      font-size: 150%; }
-  div.imagen1-r1 {
-    height: 60vh; }
-  div.imagen1-r1 span {
-    padding-top: 30vh; }
-  footer div div.col-4.footerItem {
-    font-size: 15px; }
-  footer div.col-4.redItem1 {
-    font-size: 15px; }
-  footer div.col-4.redItem2 {
-    font-size: 15px; }
-  footer div.col-4.redItem3 {
-    font-size: 15px; }
-  h2.subtitulo {
-    font-size: 35px; }
-  .containerParrafo p {
-    font-size: 27px; }
-  .encabezado {
-    font-size: 45px; }
-  /*estilos landing nustras bicis*/
-  div.imagen3-r2-c2.landingNB {
-    height: 50vh; }
-    div.imagen3-r2-c2.landingNB span {
-      padding-top: 20vh;
-      font-size: 18px; }
-  div.imagen2-r2-c1.landingNB {
-    height: 50vh; }
-    div.imagen2-r2-c1.landingNB span {
-      padding-top: 20vh;
-      font-size: 18px; }
-  div.imagen4-r3-c1.landingNB {
-    height: 50vh; }
-    div.imagen4-r3-c1.landingNB span {
-      padding-top: 20vh;
-      font-size: 18px; }
-  div.imagen5-r3-c2.landingNB {
-    height: 50vh; }
-    div.imagen5-r3-c2.landingNB span {
-      padding-top: 20vh;
-      font-size: 18px; }
-  /*fin landing nuestras bicis*/ }
-
-@media (min-width: 768px) {
-  nav {
-    background-color: black !important; }
-    nav div a.navbar-brand {
-      font-size: 200%; }
-  div.imagen1-r1 {
-    height: 70vh; }
-    div.imagen1-r1 span {
-      font-size: 130%; }
-  div.imagen3-r2-c2 {
-    height: 33vh; }
-    div.imagen3-r2-c2 span {
-      padding-top: 13vh;
-      font-size: 18px; }
-  div.imagen2-r2-c1 {
-    height: 33vh; }
-    div.imagen2-r2-c1 span {
-      padding-top: 13vh;
-      font-size: 18px; }
-  div.imagen4-r3-c1 {
-    height: 33vh; }
-    div.imagen4-r3-c1 span {
-      padding-top: 13vh;
-      font-size: 18px; }
-  div.imagen5-r3-c2 {
-    height: 33vh; }
-    div.imagen5-r3-c2 span {
-      padding-top: 13vh;
-      font-size: 18px; }
-  /*estilos landing nustras bicis*/
-  div.imagen3-r2-c2.landingNB {
-    height: 50vh; }
-    div.imagen3-r2-c2.landingNB span {
-      padding-top: 20vh;
-      font-size: 23px; }
-  div.imagen2-r2-c1.landingNB {
-    height: 50vh; }
-    div.imagen2-r2-c1.landingNB span {
-      padding-top: 20vh;
-      font-size: 23px; }
-  div.imagen4-r3-c1.landingNB {
-    height: 50vh; }
-    div.imagen4-r3-c1.landingNB span {
-      padding-top: 20vh;
-      font-size: 23px; }
-  div.imagen5-r3-c2.landingNB {
-    height: 50vh; }
-    div.imagen5-r3-c2.landingNB span {
-      padding-top: 20vh;
-      font-size: 23px; }
-  /*fin landing nuestras bicis*/
-  h2.subtitulo {
-    font-size: 40px; }
-  .containerParrafo p {
-    font-size: 27px; } }
-
-@media (min-width: 992px) {
-  nav {
-    background-color: black !important; }
-    nav div a.navbar-brand {
-      font-size: 200%; }
-  div.imagen1-r1 {
-    height: 80vh; }
-  div.imagen1-r1 span {
-    font-size: 150%;
-    padding-top: 32vh; }
-  div.imagen3-r2-c2 {
-    height: 40vh; }
-    div.imagen3-r2-c2 span {
-      padding-top: 16vh;
-      font-size: 20px; }
-  div.imagen2-r2-c1 {
-    height: 40vh; }
-    div.imagen2-r2-c1 span {
-      padding-top: 16vh;
-      font-size: 20px; }
-  div.imagen4-r3-c1 {
-    height: 40vh; }
-    div.imagen4-r3-c1 span {
-      padding-top: 16vh;
-      font-size: 20px; }
-  div.imagen5-r3-c2 {
-    height: 40vh; }
-    div.imagen5-r3-c2 span {
-      padding-top: 16vh;
-      font-size: 20px; }
-  h2.subtitulo {
-    font-size: 42px; }
-  .containerParrafo p {
-    font-size: 27px; } }
-
-@media (min-width: 1200px) {
-  nav {
-    background-color: black !important; }
-    nav div a.navbar-brand {
-      font-size: 280%; }
-    nav div div ul a {
-      font-size: 20px; }
-  div.imagen1-r1 {
-    height: 100vh; }
-    div.imagen1-r1 span {
-      font-size: 200%;
-      padding-top: 40vh; }
-  div.imagen3-r2-c2 {
-    height: 50vh; }
-    div.imagen3-r2-c2 span {
-      padding-top: 20vh;
-      font-size: 23px; }
-  div.imagen2-r2-c1 {
-    height: 50vh; }
-    div.imagen2-r2-c1 span {
-      padding-top: 20vh;
-      font-size: 23px; }
-  div.imagen4-r3-c1 {
-    height: 50vh; }
-    div.imagen4-r3-c1 span {
-      padding-top: 20vh;
-      font-size: 23px; }
-  div.imagen5-r3-c2 {
-    height: 50vh; }
-    div.imagen5-r3-c2 span {
-      padding-top: 20vh;
-      font-size: 23px; }
-  .encabezado {
-    font-size: 55px; }
-  h2.subtitulo {
-    font-size: 47px; }
-  .containerParrafo p {
-    font-size: 27px; } }
-
 footer {
   width: 100%;
   background-color: black; }
@@ -701,13 +525,13 @@ div.itemCarrito {
     padding: 2%; }
     div.itemCarrito div.innerContainer div.rightContainer {
       height: 100%;
-      width: 70%;
+      width: 50%;
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
       align-items: center; }
       div.itemCarrito div.innerContainer div.rightContainer img {
-        height: 90%;
+        height: 60%;
         margin: auto 0px auto 1%;
         padding: 0px 10% 0px 0px; }
       div.itemCarrito div.innerContainer div.rightContainer div {
@@ -717,17 +541,232 @@ div.itemCarrito {
         align-items: center; }
         div.itemCarrito div.innerContainer div.rightContainer div h5 {
           font-family: "Teko", sans-serif;
-          font-size: 24px; }
+          font-size: 18px; }
         div.itemCarrito div.innerContainer div.rightContainer div h6 {
           font-family: "Teko", sans-serif;
-          font-size: 20px; }
+          font-size: 14px; }
     div.itemCarrito div.innerContainer div.leftContainer {
       height: 100%;
-      width: 30%;
+      width: 50%;
       display: flex;
       justify-content: space-around;
       align-items: center;
       flex-direction: row; }
+      div.itemCarrito div.innerContainer div.leftContainer a {
+        width: 40%;
+        font-size: 12px; }
 
 div#mainContainer {
   min-height: 100vh; }
+
+@media (min-width: 576px) {
+  nav {
+    background-color: black !important; }
+    nav div a.navbar-brand {
+      font-size: 150%; }
+  div.imagen1-r1 {
+    height: 60vh; }
+  div.imagen1-r1 span {
+    padding-top: 30vh; }
+  footer div div.col-4.footerItem {
+    font-size: 15px; }
+  footer div.col-4.redItem1 {
+    font-size: 15px; }
+  footer div.col-4.redItem2 {
+    font-size: 15px; }
+  footer div.col-4.redItem3 {
+    font-size: 15px; }
+  h2.subtitulo {
+    font-size: 35px; }
+  .containerParrafo p {
+    font-size: 27px; }
+  .encabezado {
+    font-size: 45px; }
+  /*estilos landing nustras bicis*/
+  div.imagen3-r2-c2.landingNB {
+    height: 50vh; }
+    div.imagen3-r2-c2.landingNB span {
+      padding-top: 20vh;
+      font-size: 18px; }
+  div.imagen2-r2-c1.landingNB {
+    height: 50vh; }
+    div.imagen2-r2-c1.landingNB span {
+      padding-top: 20vh;
+      font-size: 18px; }
+  div.imagen4-r3-c1.landingNB {
+    height: 50vh; }
+    div.imagen4-r3-c1.landingNB span {
+      padding-top: 20vh;
+      font-size: 18px; }
+  div.imagen5-r3-c2.landingNB {
+    height: 50vh; }
+    div.imagen5-r3-c2.landingNB span {
+      padding-top: 20vh;
+      font-size: 18px; }
+  /*fin landing nuestras bicis*/
+  div.itemCarrito div.innerContainer div.rightContainer img {
+    height: 70%; }
+  div.itemCarrito div.innerContainer div.rightContainer div h5 {
+    font-size: 20px; }
+  div.itemCarrito div.innerContainer div.rightContainer div h6 {
+    font-size: 16px; }
+  div.itemCarrito div.innerContainer div.leftContainer a {
+    font-size: 16px; } }
+
+@media (min-width: 768px) {
+  nav {
+    background-color: black !important; }
+    nav div a.navbar-brand {
+      font-size: 200%; }
+  div.imagen1-r1 {
+    height: 70vh; }
+    div.imagen1-r1 span {
+      font-size: 130%; }
+  div.imagen3-r2-c2 {
+    height: 33vh; }
+    div.imagen3-r2-c2 span {
+      padding-top: 13vh;
+      font-size: 18px; }
+  div.imagen2-r2-c1 {
+    height: 33vh; }
+    div.imagen2-r2-c1 span {
+      padding-top: 13vh;
+      font-size: 18px; }
+  div.imagen4-r3-c1 {
+    height: 33vh; }
+    div.imagen4-r3-c1 span {
+      padding-top: 13vh;
+      font-size: 18px; }
+  div.imagen5-r3-c2 {
+    height: 33vh; }
+    div.imagen5-r3-c2 span {
+      padding-top: 13vh;
+      font-size: 18px; }
+  /*estilos landing nustras bicis*/
+  div.imagen3-r2-c2.landingNB {
+    height: 50vh; }
+    div.imagen3-r2-c2.landingNB span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen2-r2-c1.landingNB {
+    height: 50vh; }
+    div.imagen2-r2-c1.landingNB span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen4-r3-c1.landingNB {
+    height: 50vh; }
+    div.imagen4-r3-c1.landingNB span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen5-r3-c2.landingNB {
+    height: 50vh; }
+    div.imagen5-r3-c2.landingNB span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  /*fin landing nuestras bicis*/
+  h2.subtitulo {
+    font-size: 40px; }
+  .containerParrafo p {
+    font-size: 27px; }
+  div.itemCarrito div.innerContainer div.rightContainer {
+    width: 70%; }
+    div.itemCarrito div.innerContainer div.rightContainer img {
+      height: 80%; }
+    div.itemCarrito div.innerContainer div.rightContainer div h5 {
+      font-size: 22px; }
+    div.itemCarrito div.innerContainer div.rightContainer div h6 {
+      font-size: 18px; }
+  div.itemCarrito div.innerContainer .leftContainer {
+    width: 30%; }
+    div.itemCarrito div.innerContainer .leftContainer a {
+      font-size: 20px !important; } }
+
+@media (min-width: 992px) {
+  nav {
+    background-color: black !important; }
+    nav div a.navbar-brand {
+      font-size: 200%; }
+  div.imagen1-r1 {
+    height: 80vh; }
+  div.imagen1-r1 span {
+    font-size: 150%;
+    padding-top: 32vh; }
+  div.imagen3-r2-c2 {
+    height: 40vh; }
+    div.imagen3-r2-c2 span {
+      padding-top: 16vh;
+      font-size: 20px; }
+  div.imagen2-r2-c1 {
+    height: 40vh; }
+    div.imagen2-r2-c1 span {
+      padding-top: 16vh;
+      font-size: 20px; }
+  div.imagen4-r3-c1 {
+    height: 40vh; }
+    div.imagen4-r3-c1 span {
+      padding-top: 16vh;
+      font-size: 20px; }
+  div.imagen5-r3-c2 {
+    height: 40vh; }
+    div.imagen5-r3-c2 span {
+      padding-top: 16vh;
+      font-size: 20px; }
+  h2.subtitulo {
+    font-size: 42px; }
+  .containerParrafo p {
+    font-size: 27px; }
+  div.itemCarrito div.innerContainer div.rightContainer img {
+    height: 90%; }
+  div.itemCarrito div.innerContainer div.rightContainer div h5 {
+    font-size: 24px; }
+  div.itemCarrito div.innerContainer div.rightContainer div h6 {
+    font-size: 20px; }
+  div.itemCarrito div.innerContainer .leftContainer a {
+    font-size: 22px !important; } }
+
+@media (min-width: 1200px) {
+  nav {
+    background-color: black !important; }
+    nav div a.navbar-brand {
+      font-size: 280%; }
+    nav div div ul a {
+      font-size: 20px; }
+  div.imagen1-r1 {
+    height: 100vh; }
+    div.imagen1-r1 span {
+      font-size: 200%;
+      padding-top: 40vh; }
+  div.imagen3-r2-c2 {
+    height: 50vh; }
+    div.imagen3-r2-c2 span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen2-r2-c1 {
+    height: 50vh; }
+    div.imagen2-r2-c1 span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen4-r3-c1 {
+    height: 50vh; }
+    div.imagen4-r3-c1 span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  div.imagen5-r3-c2 {
+    height: 50vh; }
+    div.imagen5-r3-c2 span {
+      padding-top: 20vh;
+      font-size: 23px; }
+  .encabezado {
+    font-size: 55px; }
+  h2.subtitulo {
+    font-size: 47px; }
+  .containerParrafo p {
+    font-size: 27px; }
+  div.itemCarrito div.innerContainer div.rightContainer img {
+    height: 80%; }
+  div.itemCarrito div.innerContainer div.rightContainer div h5 {
+    font-size: 25px; }
+  div.itemCarrito div.innerContainer div.rightContainer div h6 {
+    font-size: 22px; }
+  div.itemCarrito div.innerContainer .leftContainer a {
+    font-size: 24px !important; } }
