@@ -95,13 +95,12 @@
             }
             div.leftContainer{
                 a{
-                    font-size: 16px; 
+                    font-size: 14px;
                 }
             }
         }
     }
 }
-
 @media (min-width: 768px) { 
     nav{
         background-color: black !important;
@@ -211,10 +210,11 @@
                     }
                 }
             }
-            .leftContainer{
+            div.leftContainer{
                 width: 30%;
                 a{
-                    font-size: 20px !important; 
+                    width: 39%;
+                    font-size: 16px !important; 
                 }
             }
         }
@@ -300,9 +300,10 @@
                     }
                 }
             }
-            .leftContainer{
+            div.leftContainer{
                 a{
-                    font-size: 22px !important; 
+                    width: 37%;
+                    font-size: 18px !important; 
                 }
             }
         }
@@ -396,9 +397,10 @@
                 }
             }
 
-            .leftContainer{
+            div.leftContainer{
                 a{
-                    font-size: 24px !important; 
+                    width: 35%;
+                    font-size: 20px !important; 
                 }
             }
         }
