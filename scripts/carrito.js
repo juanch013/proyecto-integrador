@@ -1,9 +1,12 @@
 mostrarCarro()
 
 function mostrarCarro(){
+    debugger
     let carrito = localStorage.getItem("carrito")
     let contenedor = document.getElementById("mainContainer")
-    if(carrito != null){
+    carrito = (carrito == null) ? [] : carrito
+    if(carrito != "[]"){
+        console.log("a")
         contenedor.innerHTML = `<div class="centradoLinea"><h1 class="subtitulo ">Productos agregados al carrito</h1></div>`
         carrito = JSON.parse(carrito)
         carrito.forEach(it => {
@@ -45,7 +48,10 @@ function mostrarCarro(){
             }); 
         }
         
-    }      
+    }else{
+        console.log("b")
+        contenedor.innerHTML = `<div class="centradoLinea"><h1 class="subtitulo encabezado">No tiene productos agregados a su carrito!</h1></div>`
+    }  
 }
 
 

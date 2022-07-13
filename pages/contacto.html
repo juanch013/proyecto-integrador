@@ -49,18 +49,19 @@
       <div class="row g-0">
         <div class="col-2 col-md-3"></div>
         <div class="col-8 col-md-6">
-          <form id="formContacto" action="">
+          <form method="POST" id="formContacto">
             <fieldset class="container-fieldset">
-              <input id="inputNombre" class="input campo" type="text" placeholder="Ingrese Nombre" required>
+              <input name="nombre" id="inputNombre" class="input campo" type="text" placeholder="Ingrese Nombre" required>
 
               <input id="inputApellido" class="input campo" type="text" placeholder="Ingrese Apellido" required>
 
-              <input id="inputMail" class="input campo" type="email" placeholder="Ingrese Email" required>
+              <input name="email" id="inputMail" class="input campo" type="email" placeholder="Ingrese Email" required>
 
-              <textarea id="inputMensaje" class="input campo" name="cajaMensaje" id="mensaje" cols="30" rows="20" placeholder="Dejanos tu mensaje"></textarea>
+              <textarea name="message" id="inputMensaje" class="input campo" name="cajaMensaje" id="mensaje" cols="30" rows="20" placeholder="Dejanos tu mensaje"></textarea>
               <button type="submit" class="btnEnviar">Enviar</button>
           </fieldset>
         </form>
+
         </div>
         <div class="col-2 col-md-3"></div>
       </div>
@@ -105,4 +106,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 <script src="../scripts/scriptContacto.js"></script>
+
 </html>
