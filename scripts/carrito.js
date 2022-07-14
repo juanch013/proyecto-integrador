@@ -28,7 +28,11 @@ function mostrarCarro(){
                                     </div>
                                 </div>
                                 <div class="leftContainer">
-                                    <h6>Cant:${cant}</h6>
+                                    <div>
+                                        <a id="btnMas" href="#" class="btn btn-primary">+</a>
+                                        <a id="btnMenos" href="#" class="btn btn-primary">-</a>
+                                    </div>
+                                    <h6>${cant}</h6>
                                     <a id="${id}" href="#" class="btn btn-primary">Eliminar</a>
                                 </div>
                             </div>
