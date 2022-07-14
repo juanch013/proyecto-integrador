@@ -1,7 +1,5 @@
 mostrarCarro()
-
 function mostrarCarro(){
-    debugger
     let carrito = localStorage.getItem("carrito")
     let contenedor = document.getElementById("mainContainer")
     carrito = (carrito == null) ? [] : carrito
@@ -29,28 +27,58 @@ function mostrarCarro(){
                                 </div>
                                 <div class="leftContainer">
                                     <div>
-                                        <a id="btnMas" href="#" class="btn btn-primary">+</a>
-                                        <a id="btnMenos" href="#" class="btn btn-primary">-</a>
+                                        <a id="btnMas" href="#" class="btn btn-primary btnCant">+</a>
+                                        <a id="btnMenos" href="#" class="btn btn-primary btnCant">-</a>
                                     </div>
                                     <h6>${cant}</h6>
-                                    <a id="${id}" href="#" class="btn btn-primary">Eliminar</a>
+                                    <a id="${id}" href="#" class="btn btn-primary btnEliminar">Eliminar</a>
                                 </div>
                             </div>
                         </div>`
             contenedor.innerHTML += itHTML
         });
-
         let botones = document.querySelectorAll(".btn, .btn-primary")
         if(botones.length != 0){
             botones.forEach(element => {
-                console.log("e")
-                element.addEventListener('click',()=>{
-                    let id  = element.id
-                    eliminarItem(id)
-                    element.className = "btn .btn-primary"
-                })
+                if(element.className == "btn btn-primary btnEliminar"){
+                    element.addEventListener('click',()=>{
+                        debugger
+                        let id  = element.id
+                        eliminarItem(id)
+                        element.className = "btn .btn-primary"
+                    })
+                }else if(element.className == "btn btn-primary btnCant"){
+                    if(element.id == "btnMas"){
+                        element.addEventListener('click',()=>{
+                            let btnElim = element.parentNode.parentNode.parentNode.getElementsByClassName("btn btn-primary btnEliminar")
+                            let id = btnElim[0].id
+                            sumarCant(id)
+                            element.className = "btn .btn-primary btnCant"
+                        })
+                    }else if(element.id == "btnMenos"){
+                        element.addEventListener('click',()=>{
+                            debugger
+                            let btnElim = element.parentNode.parentNode.parentNode.getElementsByClassName("btn btn-primary btnEliminar")
+                            let id = btnElim[0].id
+                            restarCant(id)
+                            element.className = "btn .btn-primary btnCant"
+                        })
+                    }
+                }
             }); 
         }
+
+        // let botones = document.querySelectorAll("#btnMas, #btnMenos")
+        // if(botones.length != 0){
+        //     botones.forEach(element => {
+        //         console.log("e")
+        //         element.addEventListener('click',()=>{
+        //             let id  = element.id
+        //             eliminarItem(id)
+        //             element.className = "btn .btn-primary"
+        //         })
+        //     }); 
+        // }
         
     }else{
         console.log("b")
@@ -58,11 +86,37 @@ function mostrarCarro(){
     }  
 }
 
-
 function eliminarItem(id){
-    console.log("aaa")
     let carrito = JSON.parse(localStorage.getItem("carrito"))
     carrito = carrito.filter(p => p.item.id != id)
     localStorage.setItem("carrito",JSON.stringify(carrito))
     mostrarCarro()
+}
+
+function restarCant(id){
+    let carrito = JSON.parse(localStorage.getItem("carrito"))
+    carrito.forEach(item => {
+        if(item.item.id == id){
+            if(item.cant == 1){
+                if(confirm(`Usted tiene solo un ${item.item.nombre} agregado a su carrito, desea eliminarlo?`)){
+                    eliminarItem(id)
+                }
+            }else{
+                item.cant = parseInt(item.cant) -1
+                localStorage.setItem("carrito",JSON.stringify(carrito))
+                mostrarCarro()
+            }
+        }
+    })
+}
+
+function sumarCant(id){
+    let carrito = JSON.parse(localStorage.getItem("carrito"))
+    carrito.forEach(item => {
+        if(item.item.id == id){
+            item.cant = parseInt(item.cant) + 1
+            localStorage.setItem("carrito",JSON.stringify(carrito))
+            mostrarCarro()
+        }
+    })
 }
