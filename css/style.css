@@ -511,7 +511,7 @@ div.itemCarrito {
   justify-content: center;
   flex-direction: column;
   height: 180px;
-  width: 80%;
+  width: 90%;
   margin: 1% auto 1% auto;
   border: 2px solid black;
   border-radius: 5px; }
@@ -529,9 +529,10 @@ div.itemCarrito {
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
-      align-items: center; }
+      align-items: center;
+      padding: 0%; }
       div.itemCarrito div.innerContainer div.rightContainer img {
-        height: 53%;
+        height: 48%;
         margin: auto 0px auto 1%;
         padding: 0px 10% 0px 0px; }
       div.itemCarrito div.innerContainer div.rightContainer div {
