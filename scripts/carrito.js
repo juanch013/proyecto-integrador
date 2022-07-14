@@ -42,7 +42,6 @@ function mostrarCarro(){
             botones.forEach(element => {
                 if(element.className == "btn btn-primary btnEliminar"){
                     element.addEventListener('click',()=>{
-                        debugger
                         let id  = element.id
                         eliminarItem(id)
                         element.className = "btn .btn-primary"
@@ -57,7 +56,6 @@ function mostrarCarro(){
                         })
                     }else if(element.id == "btnMenos"){
                         element.addEventListener('click',()=>{
-                            debugger
                             let btnElim = element.parentNode.parentNode.parentNode.getElementsByClassName("btn btn-primary btnEliminar")
                             let id = btnElim[0].id
                             restarCant(id)
@@ -66,20 +64,7 @@ function mostrarCarro(){
                     }
                 }
             }); 
-        }
-
-        // let botones = document.querySelectorAll("#btnMas, #btnMenos")
-        // if(botones.length != 0){
-        //     botones.forEach(element => {
-        //         console.log("e")
-        //         element.addEventListener('click',()=>{
-        //             let id  = element.id
-        //             eliminarItem(id)
-        //             element.className = "btn .btn-primary"
-        //         })
-        //     }); 
-        // }
-        
+        }     
     }else{
         console.log("b")
         contenedor.innerHTML = `<div class="centradoLinea"><h1 class="subtitulo encabezado">No tiene productos agregados a su carrito!</h1></div>`
@@ -98,9 +83,18 @@ function restarCant(id){
     carrito.forEach(item => {
         if(item.item.id == id){
             if(item.cant == 1){
-                if(confirm(`Usted tiene solo un ${item.item.nombre} agregado a su carrito, desea eliminarlo?`)){
-                    eliminarItem(id)
-                }
+                Swal.fire({
+                    title: 'Desea eliminar el producto del carrito?',
+                    showDenyButton: true,
+                    showCancelButton: false,
+                    confirmButtonText: 'Eliminar',
+                    denyButtonText: `Don't save`,
+                  }).then((result) => {
+                    if (result.isConfirmed) {
+                        eliminarItem(id)
+                    } else if (result.isDenied) {
+                    }
+                  })
             }else{
                 item.cant = parseInt(item.cant) -1
                 localStorage.setItem("carrito",JSON.stringify(carrito))
