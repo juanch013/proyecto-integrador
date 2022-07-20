@@ -576,6 +576,14 @@ div.itemCarrito {
 div#mainContainer {
   min-height: 100vh; }
 
+.containerDropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center; }
+  .containerDropdown div {
+    margin: 2%; }
+
 @media (min-width: 576px) {
   nav {
     background-color: black !important; }

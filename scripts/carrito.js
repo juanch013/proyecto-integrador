@@ -88,7 +88,7 @@ function restarCant(id){
                     showDenyButton: true,
                     showCancelButton: false,
                     confirmButtonText: 'Eliminar',
-                    denyButtonText: `Don't save`,
+                    denyButtonText: `Cancelar`,
                   }).then((result) => {
                     if (result.isConfirmed) {
                         eliminarItem(id)
